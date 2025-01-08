@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer {
+    overflow-x: hidden;
+    width: 100vw;
+    background-color: #1d1d1f;
+}
+.mycontainer {
+    font-family: "Plus Jakarta Sans";
+    width: 100%;
+}
+.myrow {
+    display: flex;
+    justify-content: space-evenly;
+}
+.myrow .footer-col ul{
+    list-style-type: none;
+}
+.footer-col {
+    max-width: 25%;
+    padding: 0 15px;
+    margin: 70px 0;
+}
+.footer-col:not(:first-child, :last-child) {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.footer-col h4 {
+    color: #FFF;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    position: relative;
+}
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #f0cf59;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50%;
+}
+.footer-col p {
+    color: #FFF;
+    font-size: 15px;
+    margin-top: 35px;
+    line-height: 30px;
+}
+.footer-col h5 {
+    margin-top: 30px;
+    color: #FFF;
+}
+.social-links {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+.social-links a {
+    text-decoration: none;
+    background-color: #303030;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.social-links a:hover {
+    background-color: #FFF;
+}
+.footer-col ul {
+    margin-top: 10px;
+    margin-left: -30px;
+}
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.footer-col ul li a {
+    color: #FFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    line-height: 30px;
+}
+.footer-col ul li a:hover {
+    color: #f0cf59;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 15px;
+}
+.contact-row {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+}
+.contact-row i {
+    color: #f0cf59;
+    font-size: 40px;
+    margin: 0;
+}
+.contact-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+}
+.contact-column p {
+    line-height: 0px;
+    margin: 0;
+}
+.contact-column h5 {
+    margin: 0;
+}
+@media (max-width: 800px) {
+    .mycontainer {
+        width: 100%;
+    }
+    .myrow {
+        flex-direction: column;
+    }
+    .footer-col {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-col:first-child p, .footer-col:last-child p {
+        width: 90vw;
+    }
+    .footer-col {
+        margin-bottom: 20px;
+    }
+    .footer-col h4 {
+        width: 90vw;
+    }
+    .footer-col h5 {
+        width: 90vw;
+    }
+    .footer-col ul li {
+        width: 90vw;
+    }
+}
