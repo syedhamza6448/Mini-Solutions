@@ -126,6 +126,17 @@ footer {
 footer .logo-img {
     height: 80px;
 }
+.sub-footer {
+    user-select: none;
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #303030;
+    color: #FFF;
+    text-align: center;
+}
 @media (max-width: 800px) {
     .mycontainer {
         width: 100%;
