@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
         rel="stylesheet">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -37,26 +39,75 @@
                 <li><a href="service.html">Services</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="testimonial.html">Testimonials</a></li>
-                <li><a class="active" href="contact.html">Contact</a></li>
+                <li><a class="active" href="contact.html">Contact Us</a></li>
             </ul>
             <div class="menu-icon">
                 <i id="menuIcon" class="fa-solid fa-bars" onclick="toggleMenu()"></i>
             </div>
         </nav>
     </header>
-    <!-- Hero Section -->
-    <!-- <section class="hero" id="contactHero">
-        <div class="hero-container">
-            <button>Contact</button>
-            <h1>Contact Us</h1>
-            <p>Feel free to contact us for any query</p>
+    <!-- Contact Form -->
+    <section class="contact-form">
+        <div class="container-contact">
+            <div data-aos="fade-right" data-aos-duration="3000" class="info">
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <i class="bi bi-arrow-right-short"></i>
+                    <p>Contact Us</p>
+                </div>
+                <h1>
+                    The First Step to Transforming Your <b>VISION</b> Starts Here
+                </h1>
+                <h6 class="info-para">Got questions? An idea that’s ready to take shape? Or just looking for expert
+                    guidance on your next big project? Whatever you need, we’re here to listen, collaborate, and bring
+                    your vision to life. Let’s create something <b>remarkable together</b>.</h6>
+                <h6 class="info-para">We believe every connection starts with a conversation. Use the form below to tell
+                    us about your project, ask a question, or simply say hello. Prefer <b>direct contact?</b> You’ll
+                    find all the details you need below. We’re excited to hear from you!</h6>
+                <h6 class="info-para"><i>Our team typically replies within <b>24 hours on weekdays</b> because your time
+                        is as valuable as your vision.</i></h6>
+            </div>
+            <div data-aos="fade-left" data-aos-duration="3000" class="form">
+                <form id="contact-form" method="post">
+                    <label for="name">Your Name<sup>*</sup>
+                        <input type="text" name="name" id="name" placeholder="Let's get personal!" required>
+                    </label>
+                    <label for="email">Email Address<sup>*</sup>
+                        <input type="email" name="email" id="email" placeholder="So we can reply quickly" required>
+                    </label>
+                    <label for="service">How Can We Help?<sup>*</sup>
+                        <input type="text" name="service" id="service"
+                            placeholder="Branding, Web Design, Marketing Strategy, or something else?" required>
+                    </label>
+                    <label for="message">Your Message
+                        <textarea name="message" id="message" placeholder="Tell Us What's On Your Mind!"></textarea>
+                    </label>
+                    <input class="submit" type="submit" placeholder="Submit">
+                </form>
+            </div>
         </div>
-    </section> -->
-    <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis ut obcaecati itaque, eos, accusantium consequuntur voluptatibus hic, delectus deserunt reprehenderit ex quam enim quidem sit nulla placeat. At, quis culpa!
-    Molestias provident, tenetur voluptate dicta dolore neque aut asperiores atque, aspernatur repellendus deserunt minus eum eius harum dolorem quos temporibus delectus quae voluptatem sit aperiam. Itaque quo quidem laboriosam blanditiis?
-    Saepe, consequatur quisquam vero ipsa provident odit molestias. Numquam laudantium voluptatum sapiente? Eum error provident reiciendis soluta aperiam nisi iure explicabo. Perspiciatis sint labore voluptates sit iusto reiciendis rerum laudantium!
-    Incidunt, accusantium. Veritatis odio fuga quis? Delectus itaque distinctio ea sapiente doloribus. Amet deleniti commodi dicta, laudantium recusandae doloribus, porro dolor ipsam in officiis, dolorum adipisci vel quod atque soluta!
-    Fugiat aperiam accusantium, quibusdam quod hic expedita labore commodi adipisci reprehenderit aspernatur nihil praesentium quidem error amet exercitationem non doloremque veritatis odio alias nobis dolore? Laudantium quaerat animi omnis vitae!</h1>
+    </section>
+    <section class="socials">
+        <h1 data-aos="fade-down" data-aos-duration="3000">Not A fan of forms?</h1>
+        <h1 data-aos="fade-down" data-aos-duration="3000">No Worries.</h1>
+        <div data-aos="fade-up" data-aos-duration="3000" class="contact-card">
+            <div data-aos="fade-right" data-aos-duration="3000" class="mail">
+                <i class="bi bi-envelope"></i>
+                <div class="mail-info">
+                    <h4>Mail Us</h4>
+                    <a
+                        href="mailto:minisolution.com?subject=Freelance Inquiry&body=Hello, I’m interested in your web development services.">
+                        example@gmail.com
+                    </a>
+                </div>
+            </div>
+            <div data-aos="fade-left" data-aos-duration="3000" class="social-links">
+                <a href=""><i class="fa-brands fa-linkedin fa-xl"></i></a>
+                <a href=""><i class="fa-brands fa-facebook-f fa-xl"></i></a>
+                <a href=""><i class="fa-brands fa-instagram fa-xl"></i></a>
+            </div>
+        </div>
+    </section>
     <footer>
         <div class="mycontainer">
             <div class="myrow">
@@ -67,8 +118,8 @@
                         incidunt reprehenderit ut nostrum esse provident iusto?</p>
                     <h5>Follow Us On</h5>
                     <div class="social-links">
-                        <a href=""><i class="fa-brands fa-linkedin fa-xl"></i></a>
                         <a href=""><i class="fa-brands fa-discord fa-xl"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin fa-xl"></i></a>
                         <a href=""><i class="fa-brands fa-facebook fa-xl"></i></a>
                         <a href=""><i class="fa-brands fa-instagram fa-xl"></i></a>
                         <a href=""><i class="fa-brands fa-x-twitter fa-xl"></i></a>
@@ -93,7 +144,7 @@
                         <li><a href="">Graphic Designing</a></li>
                         <li><a href="">Shopify</a></li>
                         <li><a href="">Website Designing</a></li>
-                        <li><a href="">WordPress Development</a></li> 
+                        <li><a href="">WordPress Development</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -124,12 +175,16 @@
                 </div>
             </div>
         </div>
+        <div class="sub-footer">
+            <p>&copy; 2022 Mini Solutions. All Rights Reserved</p>
+        </div>
     </footer>
-    <div class="sub-footer">
-        <p>&copy; 2022 Mini Solutions. All Rights Reserved</p>
-    </div>
     <script src="Assets/js/navbar.js"></script>
     <script src="Assets/js/contact.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

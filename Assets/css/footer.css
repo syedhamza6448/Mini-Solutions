@@ -6,7 +6,7 @@
 footer {
     overflow-x: hidden;
     width: 100vw;
-    background-color: #1d1d1f;
+    background: linear-gradient(to bottom, #FFF , #1b76bb73);
 }
 .mycontainer {
     font-family: "Plus Jakarta Sans";
@@ -31,31 +31,34 @@ footer {
     align-items: start;
 }
 .footer-col h4 {
-    color: #FFF;
+    color: #1b75bb;
     font-size: 20px;
     margin-bottom: 20px;
     font-weight: 600;
     position: relative;
+    user-select: none;
 }
 .footer-col h4::before {
     content: '';
     position: absolute;
     left: 0;
     bottom: -10px;
-    background-color: #f0cf59;
-    height: 2px;
+    background-color: #363795;
+    height: 5px;
+    border-radius: 10px;
     box-sizing: border-box;
     width: 50%;
 }
 .footer-col p {
-    color: #FFF;
+    color: #000;
     font-size: 15px;
     margin-top: 15px;
     line-height: 30px;
 }
 .footer-col h5 {
     margin-top: 20px;
-    color: #FFF;
+    color: #000;
+    font-weight: 800;
 }
 .social-links {
     margin-top: 10px;
@@ -64,13 +67,15 @@ footer {
 }
 .social-links a {
     text-decoration: none;
-    background-color: #303030;
+    background-color: #363795;
     padding: 10px;
+    color: #FFF;
     border-radius: 10px;
     transition: all 0.3s ease;
 }
 .social-links a:hover {
-    background-color: #FFF;
+    border-radius: 50%;
+    background-color: #1b75bb;
 }
 .footer-col ul {
     margin-top: 10px;
@@ -81,13 +86,15 @@ footer {
     font-size: 16px;
 }
 .footer-col ul li a {
-    color: #FFF;
+    color: #000;
     text-decoration: none;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease;
     line-height: 30px;
 }
 .footer-col ul li a:hover {
-    color: #f0cf59;
+    color: #1b75bb;
+    font-weight: 500;
+    text-decoration: underline;
 }
 .contacts {
     display: flex;
@@ -105,7 +112,7 @@ footer {
     gap: 15px;
 }
 .contact-row i {
-    color: #f0cf59;
+    color: #1b75bb;
     font-size: 40px;
     margin: 0;
 }
@@ -115,6 +122,10 @@ footer {
     justify-content: start;
     align-items: start;
     gap: 10px;
+}
+.contact-column h5{
+    font-weight: 700;
+    color: #363795;
 }
 .contact-column p {
     line-height: 0px;
@@ -133,8 +144,8 @@ footer .logo-img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #303030;
-    color: #FFF;
+    color: #363795;
+    font-weight: 700;
     text-align: center;
 }
 @media (max-width: 800px) {

@@ -9,11 +9,12 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #1d1d1f;
+    background: linear-gradient(to bottom,  #1b76bb73, #FFF);
     position: fixed;
     height: 70px;
     width: 100%;
     font-family: "Plus Jakarta Sans", sans-serif;
+    z-index: 123;
 }
 .logo-img {
     height: 60px;
@@ -30,29 +31,27 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #ffffffc9;
+    color: #000;
     transition: all 0.2s ease-in-out;
     padding-bottom: 5px;
 }
 nav ul li a:hover {
-    color: #f0cf59;
+    color: #1b75bb;
+    font-weight: 600;
 }
 
 .menu-icon {
-    color: #FFF;
+    color: #1b75bb;
     font-size: 30px;
     display: none;
 }
-
-.logo a {
-    text-decoration: none;
-    color: #ffffffc9;
-    font-size: larger;
-}
 .active {
-    color: #f0cf59;
+    color: #363795;
     font-weight: bold;
-    border-bottom: 3px solid #f0cf59;
+    border-bottom: 3px solid #363795;
+}
+.active:hover {
+    color: #363795;
 }
 @media (max-width: 800px)  {
     nav ul {
@@ -62,21 +61,21 @@ nav ul li a:hover {
         right: 0;
         flex-direction: column;
         text-align: left;
-        background-color: #1d1d1f;
+        background-color: #FFF;
         padding-bottom: 10px;
         gap: 0;
         overflow: hidden;
     }
     nav ul li {
         padding: 20px;
-        border-bottom: 1px solid #ffffffa6;
+        border-bottom: 1px solid #1b75bba6;
         width: 95%;
     }
     .menu-icon {
         display: block;
     }
     .active {
-        color: #f0cf59;
+        color: #363795;
         font-weight: bold;
         border-bottom: 0;
     }
@@ -95,6 +94,6 @@ nav ul li a:hover {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #235da8;
+    background-color: #1b76bba5;
     border-radius: 1rem;
 }

@@ -7,12 +7,12 @@ function toggleMenu() {
     let menuIcon = document.getElementById("menuIcon")  ;
     if (menuList.style.maxHeight == "0px") {
         menuList.style.maxHeight = "400px";
-        menuList.style.backgroundColor = "#1d1d1f";
+        menuList.style.backgroundColor = "#FFFFFFD7";
         menuIcon.classList.remove("fa-bars");
         menuIcon.classList.add("fa-xmark");
     } else {
         menuList.style.maxHeight = "0px";
-        menuList.style.backgroundColor = "#1d1d1f";
+        menuList.style.backgroundColor = "#FFFFFFD7";
         menuIcon.classList.remove("fa-xmark");
         menuIcon.classList.add("fa-bars");
     }
@@ -26,15 +26,15 @@ window.addEventListener('scroll', function() {
     logoImg.style.transition = 'all 0.3s';
     if (window.scrollY > 10) {
         nav.style.height = '50px';
-        nav.style.backgroundColor = "#1d1d1fd7";
+        nav.style.backgroundColor = "#FFFFFFd7";
         menuList.style.top = "50px";
-        menuList.style.backgroundColor = "#1d1d1fd7";
+        menuList.style.backgroundColor = "#FFFFFFd7";
         logoImg.style.height = "40px";
     } else {
         nav.style.height = '80px';
-        nav.style.backgroundColor = "#1d1d1f";
+        nav.style.backgroundColor = "#FFF";
         menuList.style.top = "80px";
-        menuList.style.backgroundColor = "#1d1d1f";
+        menuList.style.backgroundColor = "#FFF";
         logoImg.style.height = "60px";
     }
 });
