@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Mini Solution</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Own -->
+    <link rel="stylesheet" href="Assets/css/navbar.css">
+    <link rel="stylesheet" href="Assets/css/footer.css">
+    <link rel="stylesheet" href="Assets/css/service.css">
+</head>
+
+<body style="overflow-x: hidden;">
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a title="One Stop Solution of All Your Digital Needs" href="index.html">
+                    <img class="logo-img" id="logo" src="Assets/images/mini-solution-logo.png" alt="">
+                </a>
+            </div>
+            <ul id="menuList">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a class="active" href="service.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="testimonial.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <div class="menu-icon">
+                <i id="menuIcon" class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+            </div>
+        </nav>
+    </header>
+    <!-- Service Intro -->
+    <section class="services">
+        <div data class="container-service">
+            <div data-aos="fade-right" data-aos-duration="3000" class="info">
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <i class="bi bi-arrow-right-short"></i>
+                    <p>Services</p>
+                </div>
+                <h1>
+                    Transform Your <b>BUSINESS</b> with <b>INNOVATIVE</b> Solutions
+                </h1>
+                <h6 class="info-para">At <b>MiniSolutions</b>, we’re passionate about helping businesses grow and thrive
+                    in
+                    today’s
+                    digital world. By combining creativity with the latest technology, we deliver tailored solutions
+                    that
+                    address
+                    your unique challenges—whether it’s product design, process automation, or cloud-based systems. Our
+                    goal
+                    is
+                    to
+                    make complex problems simpler and help you achieve long-term success with practical, innovative
+                    strategies.
+                </h6>
+                <h6 class="info-para">We believe every connection starts with a conversation. Use the form below to tell
+                    us about your project, ask a question, or simply say hello. Prefer <b>direct contact?</b> You’ll
+                    find all the details you need below. We’re excited to hear from you!</h6>
+                <h6 class="info-para">Ready to transform your business? Be Inspired! Contact us to schedule a
+                    <b>FREE</b>
+                    consultation today, or mail us at <a href="contact.html">contact@minisolutions.com</a>. Let’s make
+                    your
+                    vision a
+                    reality.
+                </h6>
+            </div>
+            <div data-aos="fade-left" data-aos-duration="3000" class="service-img"></div>
+        </div>
+    </section>
+    <!-- Service Cards -->
+    <section class="service-cards">
+        <h1 data-aos="fade-down" data-aos-duration="3000">Our Services</h1>
+        <div class="container-service">
+            <script>
+                cards = [
+                    {
+                        icon : "fa-layer-group",
+                        service : "Website Development",
+                        aboutService : "ABOUT SERVICE- Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores explicabo deserunt dolore iusto illo officia ipsa libero hic ducimus,",
+                    },
+                    {
+                        icon : "fa-layer-group",
+                        service : "Website Development",
+                        aboutService : "ABOUT SERVICE- Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores explicabo deserunt dolore iusto illo officia ipsa libero hic ducimus,",
+                    },
+                    {
+                        icon : "fa-layer-group",
+                        service : "Website Development",
+                        aboutService : "ABOUT SERVICE- Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores explicabo deserunt dolore iusto illo officia ipsa libero hic ducimus,",
+                    },
+                    {
+                        icon : "fa-layer-group",
+                        service : "Website Development",
+                        aboutService : "ABOUT SERVICE- Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores explicabo deserunt dolore iusto illo officia ipsa libero hic ducimus,",
+                    },
+                    {
+                        icon : "fa-layer-group",
+                        service : "Website Development",
+                        aboutService : "ABOUT SERVICE- Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores explicabo deserunt dolore iusto illo officia ipsa libero hic ducimus,",
+                    },
+                    {
+                        icon : "fa-layer-group",
+                        service : "Website Development",
+                        aboutService : "ABOUT SERVICE- Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores explicabo deserunt dolore iusto illo officia ipsa libero hic ducimus,",
+                    },
+                ]
+                cards.forEach(cards => {
+                    document.write(
+                        `
+                        <div data-aos="fade-right" data-aos-duration="3000" class="card" id="serviceCard">
+                            <span class="liquid"></span>
+                            <span class="card-txt">
+                                <i class="fa-solid ${cards.icon}"></i>
+                                <h1>${cards.service}</h1>
+                                <p>${cards.aboutService}</p>
+                            </span>
+                        </div>
+                        `
+                    )
+                });
+            </script>
+        </div>
+    </section>
+    <!-- Moving Labels -->
+    <section class="moving-labels">
+        <div class="marquee">
+            <ul class="marquee-content">
+              <li>Website Designing</li>
+              <li>WordPress Development</li>
+              <li>SEO</li>
+              <li>Shopify</li>
+              <li>Ecommerce Website</li>
+              <li>Social Media Marketing</li>
+              <li>Website Development</li>
+              <li>Graphic Designer</li>
+              <li>ERP</li>
+              <li>CRM</li>
+              <li>LMS</li>
+            </ul>
+          </div>
+        <div class="marquee reverse">
+            <ul class="marquee-content">
+              <li>Website Designing</li>
+              <li>WordPress Development</li>
+              <li>SEO</li>
+              <li>Shopify</li>
+              <li>Ecommerce Website</li>
+              <li>Social Media Marketing</li>
+              <li>Website Development</li>
+              <li>Graphic Designer</li>
+              <li>ERP</li>
+              <li>CRM</li>
+              <li>LMS</li>
+            </ul>
+          </div>
+    </section>
+    <!-- Technologies -->
+    <section class="technologies">
+        <h2>Technologies We Use</h2>
+        <div class="container-tech">
+            <div class="tech-categories">
+                <ul>
+                    <li data-aos="fade-right" data-aos-duration="3000" onclick="showIcons('languages')">Languages</li>
+                    <li data-aos="fade-right" data-aos-duration="3000" onclick="showIcons('frameworks')">Frameworks</li>
+                    <li data-aos="fade-right" data-aos-duration="3000" onclick="showIcons('libraries')">Libraries</li>
+                    <li data-aos="fade-right" data-aos-duration="3000" onclick="showIcons('database')">Database</li>
+                    <li data-aos="fade-right" data-aos-duration="3000" onclick="showIcons('cms')">CMS</li>
+                    <li data-aos="fade-right" data-aos-duration="3000" onclick="showIcons('graphics')">3D & Graphics</li>
+                </ul>
+            </div>
+            <div data-aos="fade-left" data-aos-duration="3000" class="tech-icons">
+                <div id="languages" class="icon-category">
+                    <h1>Languages</h1>
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <i class="fa-brands fa-js"></i>
+                    <i class="fa-brands fa-python"></i>
+                    <i class="fa-brands fa-java"></i>
+                </div>
+                <div id="frameworks" class="icon-category">
+                    <h1>Frameworks</h1>
+                    <i class="fa-brands fa-react"></i>
+                    <i class="fa-brands fa-angular"></i>
+                    <i class="fa-brands fa-vuejs"></i>
+                    <i class="fa-brands fa-node-js"></i>
+                    <i class="fa-brands fa-laravel"></i>
+                </div>
+                <div id="libraries" class="icon-category">
+                    <h1>Libraries</h1>
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <i class="fa-brands fa-jquery"></i>
+                    <i class="fa-brands fa-d3"></i>
+                    <i class="fa-brands fa-chart-bar"></i>
+                </div>
+                <div id="database" class="icon-category">
+                    <h1>Database</h1>
+                    <i class="fa-solid fa-database"></i>
+                    <i class="fa-brands fa-mysql"></i>
+                    <i class="fa-brands fa-postgresql"></i>
+                    <i class="fa-brands fa-mongodb"></i>
+                </div>
+                <div id="cms" class="icon-category">
+                    <h1>CMS</h1>
+                    <i class="fa-brands fa-wordpress"></i>
+                    <i class="fa-brands fa-drupal"></i>
+                    <i class="fa-brands fa-joomla"></i>
+                </div>
+                <div id="graphics" class="icon-category">
+                    <h1>3D & Graphics</h1>
+                    <i class="fa-brands fa-adobe"></i>
+                    <i class="fa-brands fa-blender"></i>
+                    <i class="fa-brands fa-unity"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="mycontainer">
+            <div class="myrow">
+                <div class="footer-col">
+                    <a href="index.html"><img class="logo-img" src="Assets/images/mini-solution-logo.png" alt=""></a>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, ea consequatur. Recusandae
+                        quam laborum eaque maxime cupiditate quo, praesentium aspernatur iste exercitationem, molestiae
+                        incidunt reprehenderit ut nostrum esse provident iusto?</p>
+                    <h5>Follow Us On</h5>
+                    <div class="social-links">
+                        <a href=""><i class="fa-brands fa-discord fa-xl"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin fa-xl"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook fa-xl"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram fa-xl"></i></a>
+                        <a href=""><i class="fa-brands fa-x-twitter fa-xl"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Portfolio</a></li>
+                        <li><a href="">Testimonials</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="">Website Development</a></li>
+                        <li><a href="">Social Media Marketing</a></li>
+                        <li><a href="">Graphic Designing</a></li>
+                        <li><a href="">Shopify</a></li>
+                        <li><a href="">Website Designing</a></li>
+                        <li><a href="">WordPress Development</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Get In Touch</h4>
+                    <div class="contacts">
+                        <div class="contact-row">
+                            <i class="bi bi-telephone"></i>
+                            <div class="contact-column">
+                                <h5>Phone</h5>
+                                <p>+123-234-2456</p>
+                            </div>
+                        </div>
+                        <div class="contact-row">
+                            <i class="bi bi-envelope"></i>
+                            <div class="contact-column">
+                                <h5>Email</h5>
+                                <p>email@example.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-row">
+                            <i class="bi bi-geo-alt"></i>
+                            <div class="contact-column">
+                                <h5>Address</h5>
+                                <p>address will be shown here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-footer">
+            <p>&copy; 2022 Mini Solutions. All Rights Reserved</p>
+        </div>
+    </footer>
+    <!-- Back to Top -->
+    <button id="backToTop" title="Back to top">
+        <i style="color: #1b75bb;" class="fa-solid fa-arrow-up"></i>
+    </button>
+    </script>
+    <script src="Assets/js/navbar.js"></script>
+    <script src="Assets/js/service.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

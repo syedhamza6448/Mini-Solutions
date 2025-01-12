@@ -94,6 +94,40 @@ nav ul li a:hover {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #1b76bba5;
+    background-color: #1b75bb73;
     border-radius: 1rem;
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: #1b75bb;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#backToTop i {
+    font-size: 20px;
+}
+
+#backToTop::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px; 
+    width: calc(100% - 10px); 
+    height: calc(100% - 10px); 
+    border-radius: 50%;
+    background: conic-gradient(#1b75bb 0%, #e0e0e0 0%);
+    z-index: -1;
+    transition: background 0.3s ease-in-out;
 }

@@ -6,7 +6,7 @@
 }
 .contact-form {
     width: 100vw;
-    height: 95vh;
+    height: fit-content;
     margin-bottom: 10px;
 }
 .container-contact {
@@ -232,15 +232,24 @@ textarea {
     textarea {
         max-width: 100%;
     }
+    .socials h1 {
+        font-size: 30px;
+    }
     .contact-card {
         flex-direction: column;
+        padding: 20px;
     }
     .mail {
+        justify-content: center;
         width: 100%;
         border-bottom: 5px dotted #FFF;
         border-right: none;
         margin-bottom: 10px;
         padding-bottom: 10px;
+    }
+    .mail a {
+        text-decoration: underline;
+        font-size: 13px;
     }
     .contact-card .social-links {
         width: 100%;
