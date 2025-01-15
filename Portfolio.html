@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | MiniSolutions</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Space+Grotesk:wght@300..700&family=Young+Serif&display=swap"
+        rel="stylesheet">
+    <!-- bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="Assets/css/Portfolio.css">
+    <link rel="stylesheet" href="Assets/css/navbar.css">
+    <link rel="stylesheet" href="Assets/css/footer.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body style="overflow-x: hidden;">
+
+
+    <header>
+        <nav>
+            <div class="logo">
+                <a title="One Stop Solution of All Your Digital Needs" href="index.html">
+                    <img class="logo-img" id="logo" src="Assets/images/mini-solution-logo.png" alt="">
+                </a>
+            </div>
+            <ul id="menuList">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a class="active" href="portfolio.html">Portfolio</a></li>
+                <li><a href="Testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <div class="menu-icon">
+                <i id="menuIcon" class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Service Intro -->
+    <section class="services">
+        <div class="container-service container">
+            <div class="row">
+                <!-- Text Section -->
+                <div data-aos="fade-right" data-aos-duration="3000" class="info col-lg-6 col-md-12">
+                    <div class="breadcrumb">
+                        <a href="index.html">Home</a>
+                        <i class="bi bi-arrow-right-short"></i>
+                        <p>Portfolio</p>
+                    </div>
+                    <h1>
+                        Unleashing <b>CREATIVE</b> Solutions through our <b>PORTFOLIO</b>
+                    </h1>
+                    <h6 class="info-para">At <b>MiniSolutions</b>, we take pride in delivering outstanding results for
+                        our clients. Our portfolio reflects our commitment to blending creativity with cutting-edge
+                        technology to solve complex business challenges. From product design to process automation and
+                        cloud-based solutions, we’ve helped businesses thrive in the digital world. Each project we
+                        undertake is tailored to meet unique goals, ensuring long-term success and impactful outcomes.
+                    </h6>
+                    <h6 class="info-para">
+                        We believe in the power of collaboration and are always excited to connect with new clients.
+                        Browse our portfolio to see the transformative work we’ve done. Ready to take your business to
+                        the next level? Get in touch, and let’s start the conversation!
+                    </h6>
+                    <h6 class="info-para">Ready to transform your business? Be Inspired! Contact us to schedule a
+                        <b>FREE</b> consultation today, or mail us at <a
+                            href="contact.html">contact@minisolutions.com</a>.
+                        Let’s make your vision a reality.
+                    </h6>
+                </div>
+                <!-- Image Section -->
+                <div data-aos="fade-down" data-aos-duration="3000"
+                    class="service-img col-lg-6 col-md-12 d-flex justify-content-center align-items-center">
+                    <img src="Assets/images/portfolio.png" alt="Portfolio Image" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="container">
+            <!-- Section Heading -->
+            <div class="portfolio-heading text-center mb-5">
+                <h2 data-aos="fade-up" data-aos-duration="2000" class="section-title">
+                    Explore Our <b>PORTFOLIO</b>
+                </h2>
+                <p data-aos="fade-up" data-aos-duration="2000" class="section-subtitle">
+                    See how we’ve transformed businesses with our innovative solutions.
+                </p>
+            </div>
+            <!-- Portfolio Grid -->
+            <div class="row g-4">
+                <!-- Portfolio Item 1 -->
+                <div data-aos="fade-up" data-aos-duration="1000" class="col-lg-4 col-md-6">
+                    <div class="portfolio-card">
+                        <img src="Assets/images/portfolio.png" alt="Project 1" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h5>Project Title 1</h5>
+                            <p>Short description of the project goes here. Innovative and engaging design.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item 2 -->
+                <div data-aos="fade-up" data-aos-duration="1000" class="col-lg-4 col-md-6">
+                    <div class="portfolio-card">
+                        <img src="Assets/images/portfolio.png" alt="Project 2" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h5>Project Title 2</h5>
+                            <p>Short description of the project goes here. Custom development solutions.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item 3 -->
+                <div data-aos="fade-up" data-aos-duration="1000" class="col-lg-4 col-md-6">
+                    <div class="portfolio-card">
+                        <img src="Assets/images/portfolio.png" alt="Project 3" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h5>Project Title 3</h5>
+                            <p>Short description of the project goes here. Seamless user experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Second Row -->
+            <div class="row g-4 mt-3">
+                <!-- Portfolio Item 4 -->
+                <div data-aos="fade-up" data-aos-duration="1000" class="col-lg-4 col-md-6">
+                    <div class="portfolio-card">
+                        <img src="Assets/images/portfolio.png" alt="Project 4" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h5>Project Title 4</h5>
+                            <p>Short description of the project goes here. Innovative business solution.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item 5 -->
+                <div data-aos="fade-up" data-aos-duration="1000" class="col-lg-4 col-md-6">
+                    <div class="portfolio-card">
+                        <img src="Assets/images/portfolio.png" alt="Project 5" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h5>Project Title 5</h5>
+                            <p>Short description of the project goes here. Efficient workflow design.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item 6 -->
+                <div data-aos="fade-up" data-aos-duration="1000" class="col-lg-4 col-md-6">
+                    <div class="portfolio-card">
+                        <img src="Assets/images/portfolio.png" alt="Project 6" class="img-fluid">
+                        <div class="portfolio-overlay">
+                            <h5>Project Title 6</h5>
+                            <p>Short description of the project goes here. Scalable software solutions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="expertise">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 data-aos="fade-up">Bringing <b class="is"> Innovative <br> Solutions</b> to Life</h2>
+                    <p data-aos="fade-up" data-aos-delay="300">
+                        At MiniSolutions, we specialize in transforming ideas into cutting-edge solutions. Our team
+                        leverages technology and creativity to bring your vision to life. Whether it's improving
+                        operational efficiency or creating exceptional user experiences, we deliver results that exceed
+                        expectations.
+                    </p>
+                    <p data-aos="fade-up" data-aos-delay="500">
+                        Ready to explore how we can drive your business forward? Let’s collaborate and innovate
+                        together!
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="Assets/images/portfolio.png" alt="Expertise Image" class="img-fluid" data-aos="fade-right"
+                        data-aos-delay="700">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-aos="fade-up" data-aos-duration="3000" class="cta">
+        <div class="cta-card">
+            <div class="cta-text">
+                <h3>Let's Work Together</h3>
+                <h4>Have questions or need Assistance?</h4>
+                <p>We’re here to help! Feel free to reach out for any inquiries or to discuss your project.</p>
+            </div>
+            <a href="contact.html"><button class="cta-btn">Contact Us</button></a>
+        </div>
+    </section>
+    <br>
+    <!-- Footer -->
+    <footer>
+        <div class="mycontainer">
+            <div class="myrow">
+                <div class="footer-col">
+                    <a href="index.html"><img class="logo-img" src="Assets/images/mini-solution-logo.png" alt=""></a>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, ea consequatur. Recusandae
+                        quam laborum eaque maxime cupiditate quo, praesentium aspernatur iste exercitationem, molestiae
+                        incidunt reprehenderit ut nostrum esse provident iusto?</p>
+                    <h5>Follow Us On</h5>
+                    <div class="social-links">
+                        <a href=""><i class="fa-brands fa-discord fa-xl"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin fa-xl"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook fa-xl"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram fa-xl"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="service.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="testimonials">Testimonials</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="">Website Development</a></li>
+                        <li><a href="">Social Media Marketing</a></li>
+                        <li><a href="">Graphic Designing</a></li>
+                        <li><a href="">Shopify</a></li>
+                        <li><a href="">Website Designing</a></li>
+                        <li><a href="">WordPress Development</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Get In Touch</h4>
+                    <div class="contacts">
+                        <div class="contact-row">
+                            <i class="bi bi-telephone"></i>
+                            <div class="contact-column">
+                                <h5>Phone</h5>
+                                <p>+123-234-2456</p>
+                            </div>
+                        </div>
+                        <div class="contact-row">
+                            <i class="bi bi-envelope"></i>
+                            <div class="contact-column">
+                                <h5>Email</h5>
+                                <p>email@example.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-row">
+                            <i class="bi bi-geo-alt"></i>
+                            <div class="contact-column">
+                                <h5>Address</h5>
+                                <p>address will be shown here</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-footer">
+            <p>&copy; 2022 Mini Solutions. All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="backToTop" title="Back to top">
+        <i style="color: #1b75bb;" class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script>
+        AOS.init();
+    </script>
+    <script src="Assets/js/navbar.js"></script>
+
+
+
+</body>
+
+</html>

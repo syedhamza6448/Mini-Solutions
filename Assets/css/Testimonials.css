@@ -1,0 +1,334 @@
+.services {
+    width: 100%;
+    padding: 60px 15px;
+    background-color:  #f4f8fb;
+}
+
+.container-service {
+    padding-top: 60px;
+}
+.info {
+    
+    font-family: "Plus Jakarta Sans", Helvetica, Arial, sans-serif;
+    text-align: left;
+    padding-left: 30px; 
+    padding-right: 15px; 
+}
+
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+}
+
+.breadcrumb a {
+    color: #000;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb i {
+    color: #1b75bb;
+    font-size: 30px;
+    margin: 0 5px;
+}
+
+.breadcrumb p {
+    color: #1b75bb;
+    margin: 0;
+}
+
+.info h1 {
+    color: #000;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.info h1 b {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #1b75bb;
+}
+
+.info-para {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.info-para a {
+    color: #1b75bb;
+    font-weight: 800;
+    transition: color 0.5s ease-in-out;
+}
+
+.info-para a:hover {
+    color: #363795;
+}
+
+.info-para b {
+    color: #1b75bb;
+    font-weight: 800;
+}
+
+.service-img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    padding: 0 30px;
+}
+
+.service-img img {
+    max-width: 100%; 
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .info {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .service-img {
+        padding-right: 15px;
+        justify-content: center; 
+    }
+
+    .info h1 {
+        font-size: 2rem;
+    }
+
+    .info-para {
+        font-size: 0.9rem;
+    }
+
+    .breadcrumb i {
+        font-size: 20px;
+    }
+}
+
+.testimonials {
+    background-image: url(../images/5073198.jpg);
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    padding: 60px 15px;
+    background-size: cover;
+    
+ }
+
+.container-testimonials {
+    padding-top: 40px;
+}
+.highlight{
+    color: #1b75bb;
+}
+
+h1 {
+    
+    font-family: "Plus Jakarta Sans", Helvetica, Arial, sans-serif;
+    font-size: 3rem;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #555;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.testimonial-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 30px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-10px);
+}
+
+.testimonial-img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.testimonial-img img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 3px solid #1b75bb;
+    border-radius: 50%;
+}
+
+.testimonial-content h4 {
+    font-size: 1.5rem;
+    color:#363795;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.testimonial-position {
+    font-size: 1rem;
+    color: #999;
+    margin-bottom: 15px;
+}
+
+.testimonial-quote {
+    font-size: 1rem;
+    color: #333;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .testimonial-card {
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+.our-clients {
+    background-color: #f4f8fb;
+    padding: 60px 15px;
+}
+
+.container-clients {
+    padding-top: 60px;
+}
+
+.our-clients h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.our-clients p {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.client-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.client-logo img {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.client-logo img:hover {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .our-clients h1 {
+        font-size: 2rem;
+    }
+
+    .client-logo img {
+        max-width: 80%;
+    }
+}
+.testimonialh{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+.cta{
+    
+    font-family: "Plus Jakarta Sans", Helvetica, Arial, sans-serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta-card {
+    width: 80%;
+    height: 160px;
+    padding: 30px;
+    background-color: #1b75bb;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.cta-text {
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.cta-text h3 {
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.cta-text h4 {
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.cta-text p {
+    color: white;
+    font-size: 16px;
+}
+.cta-btn {
+    border: none;
+    outline: none;
+    background-color: #FFF;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 50px;
+    transition: all 0.5s ease-in-out;
+    font-weight: 700;
+}
+.cta-btn:hover {
+    background-color:#363795;
+    color: #FFF;
+    font-weight: 600;
+}
+@media (max-width: 768px) {
+.cta-card {
+    padding: 20px;
+    height: fit-content;
+    flex-direction: column;
+    align-items: start;
+}
+.cta-btn {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+}

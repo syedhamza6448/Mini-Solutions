@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | MiniSolutions</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Space+Grotesk:wght@300..700&family=Young+Serif&display=swap"
+        rel="stylesheet">
+    <!-- bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="Assets/css/index.css">
+    <link rel="stylesheet" href="Assets/css/footer.css">
+    <link rel="stylesheet" href="Assets/css/navbar.css">
+    <!-- Custom JS -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <a title="One Stop Solution of All Your Digital Needs" href="index.html">
+                    <img class="logo-img" id="logo" src="Assets/images/mini-solution-logo.png" alt="">
+                </a>
+            </div>
+            <ul id="menuList">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <div class="menu-icon">
+                <i id="menuIcon" class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid p-0 main1">
+        <div class="scroll-container">
+            <!-- Videos Section -->
+            <section id="video1" class="video-slide">
+                <div class="video-overlay">
+                    <h1>One Stop <span class="highlight">Solution</span> <br> for All Your <br> <span
+                            class="highlight">360 </span> Needs</h1>
+                </div>
+                <video autoplay muted loop class="w-100 h-100">
+                    <source src="Assets/videos/home.mp4" type="video/mp4">
+                </video>
+            </section>
+
+            <section id="video2" class="video-slide position-relative">
+                <video autoplay muted loop class="w-100 h-100">
+                    <source src="Assets/videos/about.mp4" type="video/mp4">
+                </video>
+
+                <div
+                    class="video-text d-flex align-items-center justify-content-center position-absolute top-50 start-0 end-0 translate-middle-y w-100 px-3">
+                    <div class="row w-100">
+
+                        <div class="col-12 col-md-6 d-flex justify-content-md-end justify-content-center">
+                            <h1 class="text-white company-heading"><span class="highlight">Our </span> <br> Company</h1>
+                        </div>
+
+                        <div class="col-12 col-md-6 d-flex justify-content-md-start justify-content-center">
+                            <p class="text-white lorem-text">At Vizmorph, we assist you in realizing your dreams with
+                                our <br>wide range of services that provide a complete package <br>from the concept to
+                                the production stage. We have diehard skills adherence ranging from one to the other
+                                streams, ensuring that we can meet all of your product development requirements.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="video3" class="video-slide position-relative">
+
+                <video autoplay muted loop class="w-100 h-100">
+                    <source src="Assets/videos/Web development.mp4" type="video/mp4">
+                </video>
+                <div
+                    class="video-text-web-dev d-flex align-items-center justify-content-center position-absolute top-50 start-0 end-0 translate-middle-y w-100 px-3">
+                    <div class="row w-100">
+
+                        <div class="col-12 d-flex justify-content-start">
+                            <h1 class="text-white web-development-heading"><span class="highlight1">Web</span>
+                                Development</h1>
+                        </div>
+
+                        <div class="col-12 d-flex justify-content-start">
+                            <p class="text-white web-development-text">We help bring product ideas to life with services
+                                like <br> design, prototyping, 3D printing, rendering, <br>and advanced analysis. Our
+                                approach ensures functionality,<br> aesthetics, and readiness for the market.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="video4" class="video-slide position-relative">
+                <video autoplay muted loop class="w-100 h-100">
+                    <source src="Assets/videos/E-Commerce websites.mp4" type="video/mp4">
+                </video>
+                <div
+                    class="video-text-web-dev d-flex align-items-center justify-content-center position-absolute top-50 start-0 end-0 translate-middle-y w-100 px-3">
+                    <div class="row w-100">
+
+                        <div class="col-12 d-flex justify-content-end">
+                            <h1 class="text-white It-services-heading"><span class="highlight">E-Commerce</span>
+                                Websites</h1>
+                        </div>
+
+                        <div class="col-12 d-flex justify-content-end">
+                            <p class="text-white It-services-text">We help bring product ideas to life with services
+                                like <br> design, prototyping, 3D printing, rendering, <br>and advanced analysis. Our
+                                approach ensures functionality,<br> aesthetics, and readiness for the market.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="video5" class="video-slide position-relative">
+                <video autoplay muted loop class="w-100 h-100">
+                    <source src="Assets/videos/Graphic Designing.mp4" type="video/mp4">
+                </video>
+                <div
+                    class="video-text-web-dev d-flex align-items-center justify-content-center position-absolute top-50 start-0 end-0 translate-middle-y w-100 px-3">
+                    <div class="row w-100">
+
+                        <div class="col-12 d-flex justify-content-center">
+                            <h1 class="text-white graphic-designing-heading">Graphic <span
+                                    class="highlight">Designing</span> </h1>
+                        </div>
+
+                        <div class="col-12 d-flex justify-content-center">
+                            <p class="text-white graphic-designing-text">We help bring product ideas to life with
+                                services like <br> design, prototyping, 3D printing, rendering, <br>and advanced
+                                analysis. Our approach ensures functionality,<br> aesthetics, and readiness for the
+                                market.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="video6" class="video-slide position-relative">
+                <video autoplay muted loop class="w-100 h-100">
+                    <source src="Assets/videos/Digital Marketing.mp4" type="video/mp4">
+                </video>
+                <div
+                    class="video-text-web-dev d-flex align-items-center justify-content-center position-absolute top-50 start-0 end-0 translate-middle-y w-100 px-3">
+                    <div class="row w-100">
+                        <div class="col-12 d-flex justify-content-start">
+                            <h1 class="text-white web-development-heading">Digital<span class="highlight">
+                                    Marketing</span></h1>
+                        </div>
+
+                        <div class="col-12 d-flex justify-content-start">
+                            <p class="text-white web-development-text">We help bring product ideas to life with services
+                                like <br> design, prototyping, 3D printing, rendering, <br>and advanced analysis. Our
+                                approach ensures functionality,<br> aesthetics, and readiness for the market.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="video7" class="video-slide position-relative">
+                <video autoplay muted loop class="w-100 h-100">
+                    <source src="Assets/videos/3129595-uhd_3840_2160_30fps.mp4" type="video/mp4">
+                </video>
+                <div
+                    class="video-text-web-dev d-flex align-items-center justify-content-center position-absolute top-50 start-0 end-0 translate-middle-y w-100 px-3">
+                    <div class="row w-100">
+
+                        <div class="col-12 d-flex justify-content-end">
+                            <h1 class="text-white future-heading">We <span class="highlight"> Invent</span> The </h1>
+                        </div>
+
+                        <div class="col-12 d-flex justify-content-end">
+                            <p class="text-white future-text"><span class="highlight">Future</span> Innovation</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </section>
+
+        <div class="scroll-indicator">
+            <span class="indicator" data-target="#video1">
+                <span class="label">Home</span>
+            </span>
+            <span class="indicator" data-target="#video2">
+                <span class="label">About</span>
+            </span>
+            <span class="indicator" data-target="#video3">
+                <span class="label">Web Development</span>
+            </span>
+            <span class="indicator" data-target="#video4">
+                <span class="label">E-Commerce Websites</span>
+            </span>
+            <span class="indicator" data-target="#video5">
+                <span class="label">Graphic Designing</span>
+            </span>
+            <span class="indicator" data-target="#video6">
+                <span class="label">Digital Marketing</span>
+            </span>
+            <span class="indicator" data-target="#video7">
+                <span class="label">Contact</span>
+            </span>
+
+        </div>
+
+
+        <script>
+
+            const videoSections = document.querySelectorAll('.video-slide');
+            const indicators = document.querySelectorAll('.indicator');
+
+            function scrollToSection(target) {
+                const targetSection = document.querySelector(target);
+                window.scrollTo({
+                    top: targetSection.offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+
+            function updateActiveIndicator() {
+                const scrollPosition = window.scrollY + window.innerHeight / 2;
+
+                videoSections.forEach((section, index) => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.offsetHeight;
+
+                    if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                        indicators.forEach(indicator => indicator.classList.remove('active'));
+                        indicators[index].classList.add('active');
+                    }
+                });
+            }
+
+            indicators.forEach(indicator => {
+                indicator.addEventListener('click', (e) => {
+                    const target = e.target.getAttribute('data-target');
+                    scrollToSection(target);
+                });
+            });
+
+            window.addEventListener('scroll', updateActiveIndicator);
+
+            document.addEventListener('DOMContentLoaded', updateActiveIndicator);
+
+
+
+
+
+        </script>
+
+        <!-- Back to Top -->
+        <button id="backToTop" title="Back to top">
+            <i style="color: #1b75bb;" class="fa-solid fa-arrow-up"></i>
+        </button>
+        <!-- Footer -->
+        <footer>
+            <div class="mycontainer">
+                <div class="myrow">
+                    <div class="footer-col">
+                        <a href="index.html"><img class="logo-img" src="Assets/images/mini-solution-logo.png"
+                                alt=""></a>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, ea consequatur. Recusandae
+                            quam laborum eaque maxime cupiditate quo, praesentium aspernatur iste exercitationem,
+                            molestiae
+                            incidunt reprehenderit ut nostrum esse provident iusto?</p>
+                        <h5>Follow Us On</h5>
+                        <div class="social-links">
+                            <a href=""><i class="fa-brands fa-discord fa-xl"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin fa-xl"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook fa-xl"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram fa-xl"></i></a>
+                            <a href=""><i class="fa-brands fa-x-facebook fa-xl"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Services</a></li>
+                            <li><a href="">Portfolio</a></li>
+                            <li><a href="">Testimonials</a></li>
+                            <li><a href="">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li><a href="">Website Development</a></li>
+                            <li><a href="">Social Media Marketing</a></li>
+                            <li><a href="">Graphic Designing</a></li>
+                            <li><a href="">Shopify</a></li>
+                            <li><a href="">Website Designing</a></li>
+                            <li><a href="">WordPress Development</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Get In Touch</h4>
+                        <div class="contacts">
+                            <div class="contact-row">
+                                <i class="bi bi-telephone"></i>
+                                <div class="contact-column">
+                                    <h5>Phone</h5>
+                                    <p>+123-234-2456</p>
+                                </div>
+                            </div>
+                            <div class="contact-row">
+                                <i class="bi bi-envelope"></i>
+                                <div class="contact-column">
+                                    <h5>Email</h5>
+                                    <p>email@example.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-row">
+                                <i class="bi bi-geo-alt"></i>
+                                <div class="contact-column">
+                                    <h5>Address</h5>
+                                    <p>address will be shown here</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-footer">
+                <p>&copy; 2022 Mini Solutions. All Rights Reserved</p>
+            </div>
+        </footer>
+        <script src="Assets/js/navbar.js"></script>
+
+
+</body>
+
+</html>

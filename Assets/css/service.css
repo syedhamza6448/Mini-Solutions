@@ -508,18 +508,19 @@
     .tech-categories li {
         width: 100%;
     }
-
+    .tech-icons {
+        width: 200px;
+    }
     .icon-category.active {
         padding-top: 80px;
         height: fit-content;
     }
-
     .icon-category h1 {
         display: block;
     }
 
     .icon-category i {
-        font-size: 75px;
+        font-size: 55px;
     }
     .cta-card {
         padding: 20px;
@@ -529,6 +530,10 @@
     }
     .cta-btn {
         margin-bottom: 20px;
+    }
+    .technologies h2 {
+        font-size: 30px;
+        text-decoration: underline;
     }
 }
 
