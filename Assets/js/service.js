@@ -3,7 +3,7 @@ document.querySelectorAll('.card').forEach(serviceCard => {
 
     serviceCard.addEventListener('mouseover', function() {
         liquid.classList.add('hovered');
-        serviceCard.style.border = "none";
+        serviceCard.style.border = "2px solid transparent";
         serviceCard.style.backgroundColor = "#1b76bb3d";
     });
 

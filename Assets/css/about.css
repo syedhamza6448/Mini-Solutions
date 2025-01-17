@@ -295,7 +295,7 @@
 
 .values h1 {
     width: fit-content;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 600;
     color: #1b75bb;
     padding-bottom: 10px;
@@ -357,6 +357,7 @@
 
     .info h1 {
         width: 100%;
+        font-size: 32px;
     }
 
     .info .info-para {
@@ -373,6 +374,7 @@
     }
 
     .card {
+        padding: 10px;
         width: 100%;
         height: fit-content;
     }
@@ -408,7 +410,7 @@
     }
 
     .value h1 {
-        font-size: 23px;
+        font-size: 32px;
     }
 }
 
